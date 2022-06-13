@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #11101d; */
+}
+
+/* menu inicio */
+.menu{
+    /* position: absolute; */
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: #11101d;
+    justify-content: center;
+    align-items: center;
+}
+.menu .nav-link{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.menu .nav-link a{
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.menu .nav-link a:hover{
+    /* position: relative; */
+    /* height: 50px; */
+    /* float: left; */
+    border: #fff;
+    background: #fff;
+    border-radius: 50px;
+    color: #11101d;
+    text-decoration: none;
+}
+
+/* menu fin */
+
+.container{
+    /* margin-top: 50px; */
+    width: 90%;
+    max-width: 1000px;
+    display: flexbox;
+    /* grid-gap: 20px; es el espaciado que le dara a los demas div*/
+    padding: 20px;
+    /* align-items: center; */
+    justify-content: center;
+    margin: auto;
+}
+.container .title{
+    display: flex;
+    font-size: 80px;
+    padding: 10px;
+    justify-content: center;
+}
+.container .subtitle{
+    display: flex;
+    padding: 10px;
+    font-size: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container .definicion{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+.container .definicion p{
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+}
+.container .definicion img{
+    width: 400px;
+}
+.container .block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .block .ley{
+    margin: 10px;
+    /* padding: 10px; */
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.container .block .ley .tema{
+    font-size: 20px;
+    margin: 10px;
+}
+.container .block .ley a{
+    display: flex;
+    margin: 15px;
+    width: 40%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #84a7ed;
+    text-decoration: none;
+    color: #000;
+    border-radius: 8px;
+}
+.container .block .ley a:hover{
+    margin: 15px;
+    width: 40%;
+    height: 40px;
+    background: #d4e0f9;
+    text-decoration: none;
+    color: #000;
+    border-radius: 8px;
+}
+.container .ley1 .tema,
+.container .ley2 .tema,
+.container .ley3 .tema{
+    display: flex;
+    padding: 10px;
+    font-size: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.container .ley1 .def,
+.container .ley2 .def,
+.container .ley3 .def{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.container .ley1 .def p,
+.container .ley2 .def p,
+.container .ley3 .def p{
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+}
+.container .ley1 img{
+    border-radius: 10px;
+    width: 92%;
+    margin: 10px;
+}
+.container .ley1 .imagen,
+.container .ley2 .imagen,
+.container .ley3 .imagen{
+    display: flex;
+    justify-content: center;
+}
+.container .def{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+.container .def p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container .def p .pregunta{
+    font-size: 25px;
+    text-decoration:  underline;
+}
+.container .ley{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.container .ley .def{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.container .ley .imagen{
+    margin: 10px;
+    width: 80%;
+}
+.container .ley .imagen-segunda{
+    margin: 10px;
+    width: 1500px;
+}
+.container .imagen{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
